@@ -1,0 +1,26 @@
+site_name: Legal Site by the Pins
+site_url: https://legal.madebythepins.tk
+nav:
+    - Home: ../
+    - 'Legal Stuff': 
+        - 'Privacy Policy':
+            - 'Legal Text': privacy/full-privacy-policy
+            - 'Human-readable version': privacy/summary-of-privacy-policy
+        - 'Terms of Service': tos
+    - 'Transparency':
+        - 'Transparency Reports Homepage': transparency
+        - 'Takedowns and Censorship': transparency/takedowns-and-censorship
+use_directory_urls: true
+plugins:
+    - search
+    - redirects:
+        redirect_maps:
+            'about/probot': 'help/about-probot'
+            'changelogs': 'about/changelogs'
+    - git-committers
+    - git-revision-date
+    - marcos
+markdown_extensions:
+    - toc:
+        permalink: "#"
+        separator: "_"

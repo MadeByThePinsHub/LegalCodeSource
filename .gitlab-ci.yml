@@ -1,0 +1,23 @@
+image: python:alpine
+
+installation:
+  - pip install mkdocs
+
+themes_and_plugins:
+  # Add your custom theme if not inside a theme_dir
+  # (https://github.com/mkdocs/mkdocs/wiki/MkDocs-Themes)
+  - pip install mkdocs-material
+  - pip install mkdocs-redirects
+  - pip install mkdocs-git-committers-plugin
+  - pip install mkdocs-git-revision-date-plugin
+  - pip install mkdocs-macros-plugin
+
+deployment:
+  script:
+  - mkdocs build
+  - mv site public
+  artifacts:
+    paths:
+    - public
+  only:
+  - master
