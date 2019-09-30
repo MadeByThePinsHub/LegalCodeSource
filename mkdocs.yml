@@ -13,11 +13,11 @@ nav:
 use_directory_urls: true
 plugins:
     - search
+    - marcos
     - redirects:
         redirect_maps:
             'privacy-policy': 'privacy/full-priacy-policy'
             'changelogs': 'about/changelogs'
-    - marcos
 markdown_extensions:
     - toc:
         permalink: "#"
