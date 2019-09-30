@@ -15,9 +15,8 @@ plugins:
     - search
     - redirects:
         redirect_maps:
-            'about/probot': 'help/about-probot'
+            'privacy-policy': 'privacy/full-priacy-policy'
             'changelogs': 'about/changelogs'
-    - git-revision-date
     - marcos
 markdown_extensions:
     - toc:
