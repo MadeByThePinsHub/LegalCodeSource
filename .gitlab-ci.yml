@@ -1,17 +1,12 @@
 image: python:alpine
 
-stages:
-  - build
-  - test
-  - deploy
-
+s
 before_script:
   - pip install mkdocs
   # Add your custom theme if not inside a theme_dir
   # (https://github.com/mkdocs/mkdocs/wiki/MkDocs-Themes)
   - pip install mkdocs-material
   - pip install mkdocs-redirects
-  - pip install mkdocs-git-committers-plugin
   - pip install mkdocs-git-revision-date-plugin
   - pip install mkdocs-macros-plugin
 

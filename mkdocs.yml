@@ -17,7 +17,6 @@ plugins:
         redirect_maps:
             'about/probot': 'help/about-probot'
             'changelogs': 'about/changelogs'
-    - git-committers
     - git-revision-date
     - marcos
 markdown_extensions:
