@@ -1,7 +1,7 @@
 image: python:alpine
 
 before_script:
-  - bash command-prompt/deploy-docs.sh
+  - bash /builds/MadeByThePinsTeam-DevLabs/legal/legal.madebythepins.tk/command-prompt/deploy-docs.sh
 
 pages:
   script:
