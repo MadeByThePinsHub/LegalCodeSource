@@ -1,7 +1,10 @@
 image: python:alpine
 
 before_script:
-  - bash /builds/MadeByThePinsTeam-DevLabs/legal/legal.madebythepins.tk/command-prompt/deploy-docs.sh
+  - pip install mkdocs
+  - pip install mkdocs-material
+  - pip install mkdocs-redirects
+  - pip install mkdocs-macros-plugin
 
 pages:
   script:
