@@ -1,12 +1,7 @@
 image: python:alpine
 
 before_script:
-  - pip install mkdocs
-  # Add your custom theme if not inside a theme_dir
-  # (https://github.com/mkdocs/mkdocs/wiki/MkDocs-Themes)
-  - pip install mkdocs-material
-  - pip install mkdocs-redirects
-  - pip install mkdocs-macros-plugin
+  - bash command-prompt/deploy-docs.sh
 
 pages:
   script:
