@@ -1,11 +1,6 @@
 site_name: Legal Site by the Pins
 site_url: https://legal.madebythepins.tk
-theme:
-    name: material
-    highlightjs: true
-    hljs_languages:
-        - yaml
-        - rust
+theme: material
 nav:
     - Home: ../
     - 'Legal Stuff': 
