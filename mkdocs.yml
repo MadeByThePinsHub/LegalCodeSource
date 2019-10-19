@@ -4,10 +4,13 @@ theme: material
 nav:
     - Home: ../
     - 'Legal Stuff': 
-        - 'Privacy Policy':
-            - 'Legal Text': privacy/full-privacy-policy
-            - 'Human-readable version': privacy/summary-of-privacy-policy
-        - 'Terms of Service': tos
+        - 'General Privacy Policy':
+            - 'Legal Text': privacy/policy
+            - 'Human-readable version': privacy/policy/summary
+        - 'General Terms of Service': tos
+        - 'Accounts IAM':
+            - 'Privacy Policy': iam/privacy
+            - 'Terms of Service': iam/tos
     - 'Transparency':
         - 'Transparency Reports Homepage': transparency
         - 'Takedowns and Censorship': transparency/takedowns-and-censorship
