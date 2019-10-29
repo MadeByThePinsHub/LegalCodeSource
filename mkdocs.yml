@@ -6,21 +6,33 @@ nav:
     - 'Legal Stuff': 
         - 'General Privacy Policy':
             - 'Legal Text': privacy/policy
-            - 'Human-readable version': privacy/policy/summary
+            - 'Human-readable version': privacy/summaried-policy
         - 'General Terms of Service': tos
         - 'Accounts IAM':
             - 'Privacy Policy': iam/privacy
             - 'Terms of Service': iam/tos
-    - 'Transparency':
+    - 'Transparency Reports':
         - 'Transparency Reports Homepage': transparency
-        - 'Takedowns and Censorship': transparency/takedowns-and-censorship
+        - 'Intellectual Property Takedowns': transparency/reports/ip-takedowns
+        - 'Reported Content': transparency/reports/reported-content
+        - 'Takedowns due to Censorship': transparency/reports/censorship-takedowns
+        - 'Data Requests': transparency/reports/data-request
+        - 'ToS / Code of Conduct Violations': transparency/reports/violations
+        - 'Other Reports': transparency/reports/other-reports
 use_directory_urls: true
 plugins:
     - search
     - redirects:
         redirect_maps:
-            'privacy-policy': 'privacy/full-priacy-policy'
-            'changelogs': 'about/changelogs'
+            'privacy-policy': privacy/policy
+            'transparency/reports': transparency
+            'transparency/ip-takeodwns': transparency/reports/ip-takedowns
+            'transparency/reported-content': transparency/reports/reported-content
+            'transparency/censorship-takedowns': transparency/reports/censorship-takedowns
+            'transparency/data-requests': transparency/reports/data-requests
+            'transparency/violations': transparency/reports/violations
+            'transparency/other-reports': transparency/reports/other-reports
+            
 markdown_extensions:
     - toc:
         permalink: "#"
