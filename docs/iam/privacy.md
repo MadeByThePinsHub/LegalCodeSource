@@ -1,7 +1,7 @@
 ---
-title: Privacy Policy for The Pins Accounts IAM (Draft)
-description: The legal code of the Pins' privacy policy for our Accounts IAM service.
-date: 
+title: Privacy Policy for The Pins Accounts IAM
+summary: The legal code of the Pins' privacy policy for our Accounts IAM service.
+date: 2019-10-29
 ---
 
 This privacy notice discloses the privacy practices for The Pins Team and our service, [Accounts IAM](https://iam.devhubcentral.ml). This privacy notice applies solely to information collected by this service, except where stated otherwise. It will notify you of the following:
@@ -58,3 +58,4 @@ If you have inquires about our data privacy practices, you can contact our [Data
 
 ## Changes in this Policy
 
+We'll update this list when updates/changes are committed into `master` branch.
