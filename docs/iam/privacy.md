@@ -1,7 +1,10 @@
 ---
 title: Privacy Policy for The Pins Accounts IAM
 summary: The legal code of the Pins' privacy policy for our Accounts IAM service.
-date: 2019-10-29
+authors:
+    - Legal Team
+    - Andrei Jiroh
+date: 2019-11-03
 ---
 
 This privacy notice discloses the privacy practices for The Pins Team and our service, [Accounts IAM](https://iam.devhubcentral.ml). This privacy notice applies solely to information collected by this service, except where stated otherwise. It will notify you of the following:
@@ -27,7 +30,7 @@ You may opt out of any future contacts from us at any time. You can do the follo
 
 - **See what data we have about you, if any.** You can visit your account settings on any app or website where we integrate Accounts IAM to see what data we have about you. You can [contact Accounts IAM Support](mailto:accounts@support.devhubcentral.ml?subject=Accounts IAM Support Request | Account Data Request for [your name here]) to request an full details of your account data we have about you on using this service.
 - **Change/correct any data we have about you.** You can visit your account settings anywhere where we integrate Accounts IAM to correct any incorrect data we have about you such as name and email address. [Contact Accounts IAM Support](mailto:accounts@support.devhubcentral.ml?subject=Accounts IAM Support Request | Account Data Correction for [your name here]) to correct incorrect data about if you think something is wrong across the service.
-- **Have us delete any data we have about you.**
+- **Have us delete any data we have about you.** If you need to delete any or all the data we collected to you while in use of this service should [contact us anytime](mailto:privacy@support.devhubcentral.ml?subject=Data Privacy Support Request | Data Deletion Request for [your name here]) and we'll honor these data deletion requests within 72 hours from the date of receipt. Before we continue, you need to agree to the things will happen after the deletion and what should the user do to minimize the side-effects.
 - **Express any concern you have about our use of your data** You can [contact our Data Privacy Support](mailto:privacy@support.devhubcentral.ml?subject=Data Privacy Support Request | Privacy Concern from [your name here])
 
 ## Registration
@@ -36,7 +39,7 @@ In order to use this service, a user must first complete the account creation pr
 
 ## Sharing
 
-We use Auth0 to
+We use Auth0 to handle authenciation and account management features. The use of this service covers [their Privacy Policy](https://auth0.com/privacy) which you can read on before proceeding.
 
 ## Security
 
@@ -58,4 +61,4 @@ If you have inquires about our data privacy practices, you can contact our [Data
 
 ## Changes in this Policy
 
-We'll update this list when updates/changes are committed into `master` branch.
+We'll update this list when updates/changes are committed into `master` branch. Return back here or see [commit history](https://gitlab.com/MadeByThePinsTeam-DevLabs/legal/legal.madebythepins.tk/commits) in original repostory instead.
