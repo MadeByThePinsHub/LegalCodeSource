@@ -32,6 +32,7 @@ plugins:
             'transparency/data-requests': transparency/reports/data-requests
             'transparency/violations': transparency/reports/violations
             'transparency/other-reports': transparency/reports/other-reports
+            'about/contributing': about/CONTRIBUTING
 repo_url: https://gitlab.com/MadeByThePinsTeam-DevLabs/legal/legal.madebythepins.tk
 edit_uri: blob/master/docs/
 markdown_extensions:
