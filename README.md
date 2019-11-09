@@ -14,5 +14,12 @@ Welcome to the Pins team's repository of our legal website. This GitLab reposito
 
 > Please note that this project is released with a [Contributor Code of Conduct](code-of-conduct.md) and [Contributing Guide](CONTRIBUTING.md). By participating in this project you agree to abide by its terms. [Additional terms may apply on using GitLab.com][terms.gitlab.com]. 
 
+## License
+
+The source code is licensed under [MIT License], while the website and user contributions licensed under [Creative Commons Attribution-ShareAlike 4.0 Unported][CC BY-SA 4.0] unless otherwise specified in [`docs/about/copyright.md`].
+
 [mkdocs.com]: https://mkdocs.com
 [terms.gitlab.com]: https://gitlab.com/terms
+[MIT License]: LICENSE
+[CC BY-SA 4.0]: https://creativecommons.org/licenses/by-sa/4.0
+[`docs/about/copyright.md`]: https://legal.madebythepins.tk/about/copyright

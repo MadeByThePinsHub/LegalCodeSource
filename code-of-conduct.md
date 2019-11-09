@@ -1,4 +1,6 @@
-#  Code of Conduct
+#  Code of Conduct for Open-Source and Communities
+
+This Code of Conduct for Open-Source and Public Communities is applicable across the Pins team's online and offline projects and communities, unless otherwise stated.
 
 ## Our Pledge
 
@@ -55,23 +57,39 @@ Community leaders will follow these Community Impact Guidelines in determining t
 
 ### 1. Correction
 
+**Number of Strikes Required**: 1
+
 **Community Impact**: Use of inappropriate language or other behavior deemed unprofessional or unwelcome in the community.
 
 **Consequence**: A private, written warning from community leaders, providing clarity around the nature of the violation and an explanation of why the behavior was inappropriate. A public apology may be requested.
 
 ### 2. Warning
 
-**Community Impact**: A violation through a single incident or series of actions.
+**Number of Strikes Required**: 2-3 (+ interaction limit)
 
-**Consequence**: A warning with consequences for continued behavior. No interaction with the people involved, including unsolicited interaction with those enforcing the Code of Conduct, for a specified period of time. This includes avoiding interactions in community spaces as well as external channels like social media. Violating these terms may lead to a temporary or permanent ban, depending on the situtation.
+**Community Impact**: A violation through a single incident or series of actions, either flagged by humans or bots.
 
-### 3. Temporary Ban
+**Consequence**: A warning with consequences for continued behavior. No interaction with the people involved, including unsolicited interaction with those enforcing the Code of Conduct, for a specified period of time. This includes avoiding interactions in community spaces as well as external channels like social media. Violating these terms may lead to a interaction limit, temporary or permanent ban, depending on the situtation.
+
+### 3. Interaction Limits / Rate-limiting
+
+**Number of Strikes Required**: 2-3 (+ warning as described above)
+
+**Community Impact**: A violation through a single incident or series of actions, either flagged by humans or bots.
+
+**Consequence**: In addition to giving the violator/s warnings, the community maintainers and the team members might decide to implement an interaction limit to prevent violators (and others who matched our rate-limiting criteria) from messing the project. Interaction limits may take up to hours/days to deploy into
+
+### 4. Temporary Ban
+
+**Number of Strikes Required**: 4
 
 **Community Impact**: A serious violation of community standards, including sustained inappropriate behavior.
 
 **Consequence**: A temporary ban from any sort of interaction or public communication with the community for a specified period of time. No public or private interaction with the people involved, including unsolicited interaction with those enforcing the Code of Conduct, is allowed during this period. Violating these terms may lead to a permanent ban.
 
-### 4. Permanent Ban
+### 5. Permanent Ban
+
+**Number of Strikes Required**:
 
 **Community Impact**: Demonstrating a pattern of violation of community standards, including sustained inappropriate behavior,  harassment of an individual, or aggression toward or disparagement of classes of individuals.
 
