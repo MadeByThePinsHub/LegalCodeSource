@@ -1,4 +1,4 @@
-[![Contributor Covenant v1.4 Adopted badge](https://img.shields.io/badge/Contributor%20Covenant-v1.4%20adopted-ff69b4.svg)](CONTRIBUTING.md) [![Code of Conduct Compliance passing badge](https://img.shields.io/badge/Code%20of%20Conduct%20Compliance%20Checklist-passing-brightgreen)](https://transparency.codeofconduct101.gq/reports)
+[![Contributor Covenant v1.4 Adopted badge](https://img.shields.io/badge/Contributor%20Covenant-v1.4%20adopted-ff69b4.svg)](code-of-conduct.md) [![Code of Conduct Compliance passing badge](https://img.shields.io/badge/Code%20of%20Conduct%20Compliance%20Checklist-unknown-lightgrey)](https://transparency.codeofconduct101.gq/reports)
 
 # Legal Codes Website by the Pins
 
