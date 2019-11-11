@@ -1,3 +1,8 @@
+---
+title: Contributing Docs Guide for Non-law Experts
+summary:
+---
+
 # Contributing
 
 When contributing to this repository, please first discuss the change you wish to make via issue,

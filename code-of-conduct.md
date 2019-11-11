@@ -45,9 +45,9 @@ This Code of Conduct applies within all community spaces, and also applies when 
 >
 > ![Marking a new issue as confidental](https://gitlab.com/MadeByThePinsTeam-DevLabs/legal/complaints-hub/uploads/9575bcf1e3ad550f0d4f7a562608e8db/image.png)
 >
-> If the report was sent thru our service desk email, an staff will mark it as confidental automatically so nothing will be leaked in the public.
+> If the report was sent thru our service desk email, it will be automatically hidden from general public unless otherwise specified.
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the community leaders responsible for enforcement at [Complaints Center Issue Tracking](https://gitlab.com/MadeByThePinsTeam-DevLabs/legal/complaints-hub/issues) or thru email at [`incoming+madebythepinsteam-devlabs-legal-complaints-hub-15257123-issue-@incoming.gitlab.com`](mailto:incoming+madebythepinsteam-devlabs-legal-complaints-hub-15257123-issue-@incoming.gitlab.com). All complaints will be reviewed and investigated promptly and fairly.
+Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the community leaders responsible for enforcement at [Complaints Center Issue Tracking](https://gitlab.com/MadeByThePinsTeam-DevLabs/legal/complaints-hub/issues) or thru email at [`incoming+madebythepinsteam-devlabs-legal-complaints-hub-15257123-issue-@incoming.gitlab.com`](mailto:incoming+madebythepinsteam-devlabs-legal-complaints-hub-15257123-issue-@incoming.gitlab.com). (If you have GitLab account, please prefix your email token to `XXXXXXXXXXXXXXXXXXXXXXXXX` on `incoming+madebythepinsteam-devlabs-legal-complaints-hub-15257123-issue@incoming.gitlab.com` like this for security: `incoming+madebythepinsteam-devlabs-legal-complaints-hub-15257123-XXXXXXXXXXXXXXXXXXXXXXXXX-issue@incoming.gitlab.com`) All complaints will be reviewed and investigated promptly and fairly.
 
 All community leaders are obligated to respect the privacy and security of the reporter of any incident.
 
@@ -65,7 +65,7 @@ Community leaders will follow these Community Impact Guidelines in determining t
 
 ### 2. Warning
 
-**Number of Strikes Required**: 2-3 (+ interaction limit)
+**Number of Strikes Required**: 2-3 (+ interaction limit as described below)
 
 **Community Impact**: A violation through a single incident or series of actions, either flagged by humans or bots.
 
