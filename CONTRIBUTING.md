@@ -11,7 +11,7 @@ Please note we have a [code of conduct](code-of-conduct.md), please follow it in
 2. Update the README.md with details of changes to the interface, this includes new environment variables, exposed ports, useful file locations and container parameters.
 3. Increase the version numbers in any examples files and the README.md to the new version that this Pull Request would represent. The versioning scheme we use is [SemVer](http://semver.org/).
 4. You may merge the Pull Request in once you have the sign-off/approval of two other developers, and an project reviewer/maintainer or an staff from the Pins team, or if you do not have permission to do that, you may request the second reviewer to merge it for you.
-5. Everytime you make an commit and pushed into this repository, the apporval counts will reset. Make sure your work is ready for approval.
+5. Everytime you make an commit and pushed into this repository, the apporval counts will reset. Make sure your work is ready for approval and final to avoid any issues.
 
 ## Issue Process
 

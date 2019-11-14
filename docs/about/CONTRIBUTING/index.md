@@ -1,9 +1,7 @@
 ---
 title: Contributing Docs Guide for Non-law Experts
-summary:
+summary: The umlimate guide for new contributors
 ---
-
-# Contributing
 
 When contributing to this repository, please first discuss the change you wish to make via issue,
 email, or any other method with the owners of this repository before making a change. This document is enforced across all of the Pins team's open-source projects in [GitLab](https://gitlab.com/madebythepinsteam-devlabs) and [GitHub](https://github.com/MadeByThePinsHub) unless otherwise specified. This Contributing Documentation Guide is for non-law experts only. If you're an law expert, please take an look at [`docs/about/CONTRIBUTING/for-law-experts`](https://legal.madebythepins.tk/about/CONTRIBUTING/)
