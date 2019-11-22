@@ -1,7 +1,7 @@
 # Contributing
 
 When contributing to this repository, please first discuss the change you wish to make via issue,
-email, or any other method with the owners of this repository before making a change. This document is enforced across all of the Pins team's open-source projects in [GitLab](https://gitlab.com/madebythepinsteam-devlabs) and [GitHub](https://github.com/MadeByThePinsHub) unless otherwise specified. This Contributing Documentation Guide is for non-law experts only. If you're an law expert, please take an look at [`docs/about/CONTRIBUTING/for-law-experts`](https://legal.madebythepins.tk/about/CONTRIBUTING/)
+email, or any other method with the owners of this repository before making a change. This document is enforced across all of the Pins team's open-source projects in [GitLab](https://gitlab.com/madebythepinsteam-devlabs) and [GitHub](https://github.com/MadeByThePinsHub) unless otherwise specified. This Contributing Documentation Guide is for non-law experts only. If you're an law expert, please take an look at [`docs/about/CONTRIBUTING/for-law-experts`](https://legal.madebythepins.tk/about/CONTRIBUTING/for-law-experts)
 
 Please note we have a [code of conduct](code-of-conduct.md), please follow it in all your interactions with the project.
 
@@ -24,3 +24,7 @@ Please note we have a [code of conduct](code-of-conduct.md), please follow it in
 1. The main branch, `master` are usually can be only editable by staffs. We recommed to contribute on `dev` or `staging` branch or any branch where the community or the staffs are working.
 2. Whne requesting push access to an branch, please contact the staff for any inquiries and follow our instructions.
 3. Resolve any merge conflicts locally with caution. Please also notify other contributors before resolving any conflicts.
+
+## Localization Process
+
+See the [provided dcumentation instead](https://legal.madebythepins.tk/about/CONTRIBUTING/)

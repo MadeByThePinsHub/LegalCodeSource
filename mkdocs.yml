@@ -1,6 +1,15 @@
+# Basic site config
 site_name: Legal Site by the Pins
+site_description: 'The one-stop place for reading our fine prints.'
+site_author: 'The Pins Team Legal'
 site_url: https://legal.madebythepins.tk
-theme: material
+
+# Themes and font config
+theme:
+    - name: material
+    - font: false
+
+# Navigation
 nav:
     - Home: ../
     - 'Legal Stuff': 
@@ -19,11 +28,28 @@ nav:
         - 'Data Requests': transparency/reports/data-request
         - 'ToS / Code of Conduct Violations': transparency/reports/violations
         - 'Other Reports': transparency/reports/other-reports
+    - 'Code of Conduct 101 Project':
+        - 'About this Project': https://about.codeofconduct101.gq
+        - 'submit Report': https://submissions.codeofconduct101.gq/compliance-checklist
+        - 'Transparency Reports': https://transparency.codeofconduct101.gq
+
+# Keep the use_directory_urls config to true
 use_directory_urls: true
+
+# Manage plugins and extensions
 plugins:
     - search
+    - minify:
+        minify_html: true
     - redirects:
         redirect_maps:
+            # For redirect maps, you should be like this:
+            # ==========================================
+            # 'old/dir/to/article': new/dir/to/article
+            # ==========================================
+            # Copy the example after # and an space to the last entity. Press Enter
+            # or Return and paste the example. Don't forget to customize it first before
+            # you save, commit and push.
             'privacy-policy': privacy/policy
             'transparency/reports': transparency
             'transparency/ip-takeodwns': transparency/reports/ip-takedowns
@@ -33,9 +59,25 @@ plugins:
             'transparency/violations': transparency/reports/violations
             'transparency/other-reports': transparency/reports/other-reports
             'about/contributing': about/CONTRIBUTING
+
+# Repository URLs
 repo_url: https://gitlab.com/MadeByThePinsTeam-DevLabs/legal/legal.madebythepins.tk
 edit_uri: blob/master/docs/
+
+# Any Markdown extensions shuld be added here
 markdown_extensions:
+    - admonition
     - toc:
         permalink: "#"
         separator: "_"
+
+# Any customizations should be placed here.
+extra:
+  manifest: 'manifest.webmanifest'
+  social:
+    - type: 'github'
+      link: 'https://github.com/MadeByThePinsHub'
+    - type: 'twitter'
+      link: 'https://twitter.com/thepinsteam'
+    - type: 'gitlab'
+      link: 'https://gitlab.com/MadeByThePinsTeam-DevLabs'
