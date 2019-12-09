@@ -38,6 +38,7 @@ use_directory_urls: true
 
 # Manage plugins and extensions
 plugins:
+    - admonition
     - search
     - minify:
         minify_html: true
@@ -61,7 +62,6 @@ plugins:
             'transparency/other-reports': transparency/reports/other-reports
             'about/contributing': about/CONTRIBUTING
             'code-of-conduct': about/code-of-conduct
-    - admonition
 
 # Repository URLs
 repo_url: https://gitlab.com/MadeByThePinsTeam-DevLabs/legal/legal.madebythepins.tk
