@@ -61,10 +61,11 @@ plugins:
             'transparency/other-reports': transparency/reports/other-reports
             'about/contributing': about/CONTRIBUTING
             'code-of-conduct': about/code-of-conduct
+    - admonition
 
 # Repository URLs
 repo_url: https://gitlab.com/MadeByThePinsTeam-DevLabs/legal/legal.madebythepins.tk
-edit_uri: blob/master/docs/
+edit_uri: blob/staging/legal-code
 
 # Any Markdown extensions shuld be added here
 markdown_extensions:

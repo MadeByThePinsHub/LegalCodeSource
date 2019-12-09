@@ -7,6 +7,13 @@ authors:
 date: 2019-11-03
 ---
 
+!!! info "Effective January 3, 2020, 90 days after latest update gone released."
+    When an policy was updated, an 90-day grace period is implemented to
+    customers and visitors to review what's changed before it gone effective.
+
+    Because it's open source, we're accepting feedback from you. See the contribution guide
+    for info on how to give feedback.
+
 This privacy notice discloses the privacy practices for The Pins Team and our service, [Accounts IAM](https://iam.devhubcentral.ml). This privacy notice applies solely to information collected by this service, except where stated otherwise. It will notify you of the following:
 
 - What information we collect;
