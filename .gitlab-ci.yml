@@ -1,6 +1,7 @@
-image: python:alpine
+image: python:3.6-alpine
 
 before_script:
+  - pip install markdown
   - pip install mkdocs
   - pip install mkdocs-minify-plugin
   - pip install mkdocs-material
@@ -14,4 +15,4 @@ pages:
     paths:
     - public
   only:
-  - master
+  - staging

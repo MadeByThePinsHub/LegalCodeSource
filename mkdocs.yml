@@ -51,6 +51,7 @@ plugins:
             # or Return and paste the example. Don't forget to customize it first before
             # you save, commit and push.
             'privacy-policy': privacy/policy
+            'privacy': privacy/policy
             'transparency/reports': transparency
             'transparency/ip-takeodwns': transparency/reports/ip-takedowns
             'transparency/reported-content': transparency/reports/reported-content
@@ -82,3 +83,6 @@ extra:
       link: 'https://twitter.com/thepinsteam'
     - type: 'gitlab'
       link: 'https://gitlab.com/MadeByThePinsTeam-DevLabs'
+
+# Documentation files
+docs_dir: legal-code
