@@ -8,3 +8,5 @@ terminal:
   - pip install mkdocs-redirects
   script: sleep 60
   variables:
+    PYTHON_ENV: "test"
+    GL_TESTS_ENV: "Connecting soon..."
