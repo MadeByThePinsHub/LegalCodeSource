@@ -6,8 +6,8 @@ site_url: https://legal.madebythepins.tk
 
 # Themes and font config
 theme:
-    - name: material
-    - font: false
+     name: material
+     font: false
 
 # Navigation
 nav:
