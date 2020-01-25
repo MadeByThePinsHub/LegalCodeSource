@@ -19,7 +19,7 @@ Please note we have a [code of conduct](code-of-conduct.md), please follow it in
 ## Issue Process
 
 1. Ensure the issue you create doesn't have any duplicates. Any duplicates will be closed and merged to the original issue.
-2. Join the discussion only if you know what topic is being talked and avoid [any sort of off-topic mess](https://en.wikipedia.org/wiki/Shitposting).
+2. Join the discussion only if you know what topic is being talked and avoid [any sort of off-topic mess](https://en.handbooksbythepins.cf/life-at-the-pins/off-topics-and-shitposting).
 3. Avoid commenting any Not Safe for Work content or even try to swear bad language. Instead, please censor using emojis (when in text) and edit the screenshot/picture to censor parts that seems to be NSFW.
 
 ## Commiting Process
@@ -27,3 +27,4 @@ Please note we have a [code of conduct](code-of-conduct.md), please follow it in
 1. The main branch, `master` are usually can be only editable by staffs. We recommed to contribute on `dev` or `staging` branch or any branch where the community or the staffs are working.
 2. Whne requesting push access to an branch, please contact the staff for any inquiries and follow our instructions.
 3. Resolve any merge conflicts locally with caution. Please also notify other contributors before resolving any conflicts.
+4. Do not include any secrets in your source code. GitLab will flag them automatically.

@@ -50,8 +50,7 @@ plugins:
             # Copy the example after # and an space to the last entity. Press Enter
             # or Return and paste the example. Don't forget to customize it first before
             # you save, commit and push.
-            'privacy-policy': privacy/policy
-            'privacy': privacy/policy
+            'privacy-policy': your-privacy/privacy-policy
             'transparency/reports': transparency
             'transparency/ip-takeodwns': transparency/reports/ip-takedowns
             'transparency/reported-content': transparency/reports/reported-content
