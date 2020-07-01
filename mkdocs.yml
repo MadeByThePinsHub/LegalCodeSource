@@ -9,6 +9,9 @@ theme:
      name: material
      # Avoid Google's GDPR issues
      font: false
+     palette:
+       # Enable dark mode by default
+       scheme: slate
 
 # Navigation
 nav:
@@ -77,11 +80,11 @@ markdown_extensions:
 extra:
   manifest: 'manifest.webmanifest'
   social:
-    - type: 'github'
+    - type: 'fontawesome/brands/github-alt'
       link: 'https://github.com/MadeByThePinsHub'
-    - type: 'twitter'
+    - type: 'fontawesome/brands/twitter'
       link: 'https://twitter.com/thepinsteam'
-    - type: 'gitlab'
+    - type: 'fontawesome/brands/gitlab'
       link: 'https://gitlab.com/MadeByThePinsTeam-DevLabs'
 
 # Documentation files
