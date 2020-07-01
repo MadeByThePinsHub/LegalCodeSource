@@ -1,0 +1,10 @@
+## base deps
+markdown
+mkdocs
+
+## theming
+mkdocs-material
+
+## plugins
+mkdocs-redirects
+mkdocs-minify-plugin
