@@ -1,7 +1,6 @@
 # Basic site config
 site_name: Legal Site by the Pins
 site_description: 'The one-stop place for reading our fine prints.'
-site_author: 'The Pins Team Legal'
 site_url: https://legal.madebythepins.tk
 
 # Themes and font config
@@ -67,7 +66,7 @@ plugins:
 
 # Repository URLs
 repo_url: https://gitlab.com/MadeByThePinsTeam-DevLabs/legal/legal.madebythepins.tk
-edit_uri: blob/staging/legal-code
+edit_uri: blob/develop/legal-code
 
 # Any Markdown extensions shuld be added here
 markdown_extensions:
@@ -80,12 +79,12 @@ markdown_extensions:
 extra:
   manifest: 'manifest.webmanifest'
   social:
-    - type: 'fontawesome/brands/github-alt'
-      link: 'https://github.com/MadeByThePinsHub'
-    - type: 'fontawesome/brands/twitter'
-      link: 'https://twitter.com/thepinsteam'
-    - type: 'fontawesome/brands/gitlab'
-      link: 'https://gitlab.com/MadeByThePinsTeam-DevLabs'
+    - type: fontawesome/brands/github-alt
+      link: https://github.com/MadeByThePinsHub
+    - type: fontawesome/brands/twitter
+      link: https://twitter.com/thepinsteam
+    - type: fontawesome/brands/gitlab
+      link: https://gitlab.com/MadeByThePinsTeam-DevLabs
 
 # Documentation files
 docs_dir: legal-code
