@@ -1,0 +1,18 @@
+name: Sync to GitLab
+
+on:
+  push: [create, update, delete]
+  workflow_dispatch:
+
+jobs:
+  git-mirror:
+    runs-on: ubuntu-latest
+    name: git-push
+    steps:
+      - uses: zent-contrib/sync-git-branch@v1
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.DIVIO_SSH_KEY_PRIVATE }}
+        with:
+          source-branch: master
+          destination-repo: git@gitlab.com/MadeByThePinsHub/legal/legal.madebythepins.tk.git
+          destination-branch: master
