@@ -1,14 +1,20 @@
 site_name: Legal Site by the Pins
 site_url: https://legal.madebythepins.tk
+
+# theme
 theme: material
+
+# navigation
 nav:
-    - Home: ../
+    - Home: ./
     - 'Legal Stuff': 
         - 'General Privacy Policy':
-            - 'Legal Text': privacy/policy
-            - 'Human-readable version': privacy/summaried-policy
-        - 'General Terms of Service': tos
-        - 'Accounts IAM':
+            - 'Legal Text': privacy-policy/legalese
+            - 'Human-readable version': privacy-policy/human
+        - 'General Terms of Service':
+            - 'Legal Text': 'tos/legalese'
+            - 'Human-readable version': 'tos/human'
+        - 'Accounts IAM/SSO':
             - 'Privacy Policy': iam/privacy
             - 'Terms of Service': iam/tos
     - 'Transparency Reports':
@@ -19,7 +25,9 @@ nav:
         - 'Data Requests': transparency/reports/data-request
         - 'ToS / Code of Conduct Violations': transparency/reports/violations
         - 'Other Reports': transparency/reports/other-reports
+
 use_directory_urls: true
+
 plugins:
     - search
     - redirects:
@@ -32,8 +40,11 @@ plugins:
             'transparency/data-requests': transparency/reports/data-requests
             'transparency/violations': transparency/reports/violations
             'transparency/other-reports': transparency/reports/other-reports
+
+# links
 repo_url: https://gitlab.com/MadeByThePinsTeam-DevLabs/legal/legal.madebythepins.tk
 edit_uri: blob/master/docs/
+# extensions TODO
 markdown_extensions:
     - toc:
         permalink: "#"
