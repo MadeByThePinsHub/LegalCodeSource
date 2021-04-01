@@ -1,9 +1,4 @@
-image: python:alpine
-
-before_script:
-  - pip install mkdocs
-  - pip install mkdocs-material
-  - pip install mkdocs-redirects
+image: madebythepinshub/mkdocs-material
 
 pages:
   script:
