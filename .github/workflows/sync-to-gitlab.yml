@@ -15,5 +15,5 @@ jobs:
           SSH_PRIVATE_KEY: ${{ secrets.DIVIO_SSH_KEY_PRIVATE }}
         with:
           source-branch: master
-          destination-repo: git@gitlab.com/MadeByThePinsHub/legal/legal.madebythepins.tk.git
+          destination-repo: git@gitlab.com:MadeByThePinsHub/legal/legal.madebythepins.tk.git
           destination-branch: master
