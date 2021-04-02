@@ -1,10 +1,18 @@
+# Basic site config
 site_name: Legal Site by the Pins
+site_description: 'The one-stop place for reading our fine prints.'
 site_url: https://legal.madebythepins.tk
 
-# theme
-theme: material
+# Themes and font config
+theme:
+     name: material
+     # Avoid Google's GDPR issues
+     font: false
+     palette:
+       # Enable dark mode by default
+       scheme: slate
 
-# navigation
+# Navigation
 nav:
     - Home: ./
     - 'Legal Stuff': 
@@ -30,9 +38,18 @@ use_directory_urls: true
 
 plugins:
     - search
+    - minify:
+        minify_html: true
     - redirects:
         redirect_maps:
-            'privacy-policy': privacy/policy
+            # For redirect maps, you should be like this:
+            # ==========================================
+            # 'old/dir/to/article': new/dir/to/article
+            # ==========================================
+            # Copy the example after # and an space to the last entity. Press Enter
+            # or Return and paste the example. Don't forget to customize it first before
+            # you save, commit and push.
+            'privacy-policy': your-privacy/privacy-policy
             'transparency/reports': transparency
             'transparency/ip-takeodwns': transparency/reports/ip-takedowns
             'transparency/reported-content': transparency/reports/reported-content
@@ -42,10 +59,25 @@ plugins:
             'transparency/other-reports': transparency/reports/other-reports
 
 # links
-repo_url: https://gitlab.com/MadeByThePinsTeam-DevLabs/legal/legal.madebythepins.tk
-edit_uri: blob/master/docs/
+repo_url: https://gitlab.com/MadeByThePinsHub/legal/legal.madebythepins.tk
+edit_uri: blob/main/legal-code
 # extensions TODO
 markdown_extensions:
+    - admonition
     - toc:
         permalink: "#"
         separator: "_"
+
+# Any customizations should be placed here.
+extra:
+  manifest: 'manifest.webmanifest'
+  social:
+    - type: fontawesome/brands/github-alt
+      link: https://github.com/MadeByThePinsHub
+    - type: fontawesome/brands/twitter
+      link: https://twitter.com/thepinsteam
+    - type: fontawesome/brands/gitlab
+      link: https://gitlab.com/MadeByThePinsTeam-DevLabs
+
+# Documentation files
+docs_dir: legal-code

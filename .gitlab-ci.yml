@@ -2,10 +2,11 @@ image: madebythepinshub/mkdocs-material
 
 pages:
   script:
-  - mkdocs build
-  - mv site public
+    - pip3 install -r requirements.txt
+    - mkdocs build
+    - mv site/ public/
   artifacts:
     paths:
-    - public
+      - public
   only:
-  - master
+  - main

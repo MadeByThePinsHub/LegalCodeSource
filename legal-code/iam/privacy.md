@@ -18,6 +18,12 @@ This privacy notice discloses the privacy practices for The Pins Team and our se
 
 For general information, please also read [our General Privacy Policy](privacy). By using our Accounts IAM service, you also agree to our general Privacy Policy and **[Auth0 Privacy Policy](https://auth0.com/privacy/)**
 
+!!! info "Effective January 3, 2020, 90 days after latest update gone released."
+    When an policy was updated, an 90-day grace period is implemented to
+    customers and visitors to review what's changed before it gone effective.
+    Because it's open source, we're accepting feedback from you. See the contribution guide
+    for info on how to give feedback.
+
 ## Information Collection, Use, and Sharing 
 
 When you sign up and/or log in to our apps and services under Accounts IAM, we collect the following information about you, such as email, public profile information and any other OpenID data from an OAuth provider you used for signing up/in. If you use traditional username-password authenication, we collect your email address, your name and some other basic info.
